@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import openai migrate
+import openai
 
 # Set key thru streamlit secrets
 api_key = st.secrets["OPENAI_API_KEY"] if "OPENAI_API_KEY" in st.secrets else os.getenv("OPENAI_API_KEY")
